@@ -48,7 +48,7 @@ body {
     text-shadow: 0 8px 24px rgba(255, 255, 255, 0.45);
 }
 
-.navbar {
+/* .navbar {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -57,7 +57,7 @@ body {
     border-radius: 5px;
   
   
-}
+} */
 
 .navbar a {
     color: #fff7f3;
