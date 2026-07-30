@@ -50,6 +50,7 @@ body {
 
 .navbar {
     display: flex;
+    background-color: #12326f;
     justify-content: center;
     flex-wrap: wrap;
     width: min(90%, 600px);
