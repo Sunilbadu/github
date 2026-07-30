@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+.header{
+    color: #fff;
+}
 :root {
     --bg-top: #f7efe5;
     --bg-bottom: #dcecff;
@@ -28,11 +31,14 @@ body {
     padding: 28px 18px;
 }
 
+
 .header,
 .container,
 .footer {
     width: min(1100px, 100%);
     margin-inline: auto;
+  font-family: "Bitcount Grid Double", system-ui;
+    font-weight: 400; 
 }
 
 .header {
@@ -55,12 +61,36 @@ body {
     width: min(90%, 600px);
     margin: auto;
     border-radius: 5px;
-  
-  
 }
 
+.btn {
+ background: none;
+    color: #2d2926;
+    border: 2px solid;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, translateY 0.25s;
+}
+
+.btn:hover {
+    border-color: #0e0e0e;
+    color: rgb(18, 17, 17);
+    box-shadow: 0 0.5em 0.5em -0.4em #37382e;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+
+    @media (max-width: 560px) {
+        h3:hover {
+            border-color: inherit;
+            color: #ffa260;
+            box-shadow: none;
+            transform: none;
+            cursor: default;
+        }}
+}
 .navbar a {
-    color: #fff7f3;
+    color: #000;
     text-decoration: none;
     padding: 12px 18px;
     border-radius: 999px;
@@ -110,6 +140,7 @@ body {
 .sidebar p {
     color: var(--muted);
     line-height: 1.7;
+    
 }
 
 .footer {
@@ -117,7 +148,8 @@ body {
     text-align: center;
     padding: 20px;
     color: #233048;
-    font-weight: 600;
+    font-weight: 600;  border-top: 0.5px solid black;
+
 }
 
 @media (max-width: 768px) {
