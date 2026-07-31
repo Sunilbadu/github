@@ -4,76 +4,276 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Layout</title>
+    <title>Gammey Technologies</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
     <header class="header">
-        <h1>My Website</h1>
+        <a href="#home" class="brand" aria-label="Gammey Technologies home">
+            <span class="brand-mark">GT</span>
+            <span>
+                <h1>Gammey Technologies</h1>
+                <p>Innovative Software & IT Solutions</p>
+            </span>
+        </a>
     </header>
 
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Primary navigation">
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#services">Services</a>
+        <a href="#team">Team</a>
         <a href="#contact">Contact</a>
     </nav>
 
-    <main class="container">
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <p class="eyebrow">Software studio in Pokhara</p>
+            <h2>Empowering Businesses Through Technology</h2>
+            <p>
+                We create modern software, web applications and IT solutions
+                that help businesses automate, innovate and grow in the
+                digital world.
+            </p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn primary">Our Services</a>
+                <a href="#contact" class="btn secondary">Contact Us</a>
+            </div>
+            <div class="hero-metrics" aria-label="Company highlights">
+                <div>
+                    <strong>6+</strong>
+                    <span>Core services</span>
+                </div>
+                <div>
+                    <strong>24/7</strong>
+                    <span>Support mindset</span>
+                </div>
+                <div>
+                    <strong>100%</strong>
+                    <span>Custom builds</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <section class="content" id="home">
-            <h2>Welcome to Bright Ideas</h2>
-            <p>We help companies tell their story online with fast, modern websites that look great on every device.
-                From strategy and design to development and launch, our goal is to make your brand feel confident and
-                professional.</p>
+    <main class="container">
+        <section class="content" aria-labelledby="welcome-heading">
+            <h2 id="welcome-heading">Welcome to Gammey Technologies</h2>
+            <p>
+                Gammey Technologies is a modern software company dedicated to
+                delivering innovative digital solutions. We specialize in
+                software development, web applications, cloud technologies,
+                and IT consulting that help businesses stay ahead in today's
+                competitive market.
+            </p>
 
             <h3 id="about">About Us</h3>
-            <p>Bright Ideas Web Studio is a small creative team focused on thoughtful digital design. We believe in
-                simple solutions, clear messaging, and seamless user experiences that turn visitors into customers.</p>
+            <p>
+                Our company believes technology should simplify life and create
+                opportunities. We combine creativity, technical expertise, and
+                teamwork to build secure, scalable, and user-friendly software
+                solutions for startups, organizations, and enterprises.
+            </p>
 
-            <h3 id="services">What We Offer</h3>
-            <ul>
-                <li>Responsive website design and development</li>
-                <li>Brand identity and logo design</li>
-                <li>Content strategy and copywriting</li>
-                <li>Ongoing support and site maintenance</li>
-            </ul>
+            <div class="card-grid">
+                <div class="info-card">
+                    <span class="card-kicker">Mission</span>
+                    <h3>Build with purpose</h3>
+                    <p>
+                        To provide reliable, innovative, and high-quality
+                        software solutions that solve real-world business
+                        challenges.
+                    </p>
+                </div>
 
-            <h3>Ready to grow?</h3>
-            <p>Whether you're launching a new business or refreshing an existing website, we're here to help you create
-                a polished online presence. Let’s build something memorable together.</p>
+                <div class="info-card">
+                    <span class="card-kicker">Vision</span>
+                    <h3>Lead through craft</h3>
+                    <p>
+                        To become one of Nepal's leading software companies,
+                        recognized for innovation, excellence, and customer
+                        satisfaction.
+                    </p>
+                </div>
+            </div>
+
+            <h2 id="services" class="section-title">Our Services</h2>
+            <div class="services">
+                <div class="service-box" data-number="01">
+                    <h4>Software Development</h4>
+                    <p>
+                        Custom desktop and enterprise software tailored to your
+                        business needs.
+                    </p>
+                </div>
+
+                <div class="service-box" data-number="02">
+                    <h4>Web Application Development</h4>
+                    <p>
+                        Responsive, scalable and secure web applications using
+                        modern technologies.
+                    </p>
+                </div>
+
+                <div class="service-box" data-number="03">
+                    <h4>Mobile App Development</h4>
+                    <p>
+                        Android and cross-platform mobile applications with
+                        excellent user experience.
+                    </p>
+                </div>
+
+                <div class="service-box" data-number="04">
+                    <h4>Cloud & IT Consulting</h4>
+                    <p>
+                        Cloud deployment, IT consulting, maintenance and
+                        technical support for businesses.
+                    </p>
+                </div>
+
+                <div class="service-box" data-number="05">
+                    <h4>UI / UX Design</h4>
+                    <p>
+                        Attractive and user-friendly interface designs focused
+                        on usability and customer satisfaction.
+                    </p>
+                </div>
+
+                <div class="service-box" data-number="06">
+                    <h4>Cyber Security</h4>
+                    <p>
+                        Secure systems, data protection and cybersecurity
+                        solutions for modern organizations.
+                    </p>
+                </div>
+            </div>
+
+            <section class="team" id="team">
+                <h2>Meet Our Team</h2>
+                <p class="team-intro">
+                    Our strength lies in our talented team of passionate
+                    developers and designers who work together to build
+                    innovative software solutions.
+                </p>
+
+                <div class="team-container">
+                    <div class="team-card leader">
+                        <span class="avatar">KD</span>
+                        <h3>Kiran Dhungana</h3>
+                        <span class="role">Team Lead - Full Stack Developer</span>
+                        <p>
+                            Leads the team while developing secure, scalable
+                            and high-performance software solutions using
+                            modern technologies.
+                        </p>
+                    </div>
+
+                    <div class="team-card">
+                        <span class="avatar">AB</span>
+                        <h3>Anish Bartaula</h3>
+                        <span class="role">Frontend Developer</span>
+                        <p>
+                            Specializes in building responsive user interfaces
+                            with HTML, CSS and JavaScript while ensuring an
+                            excellent user experience.
+                        </p>
+                    </div>
+
+                    <div class="team-card">
+                        <span class="avatar">SB</span>
+                        <h3>Sunil Datta Badu</h3>
+                        <span class="role">Backend Developer</span>
+                        <p>
+                            Develops secure APIs, manages databases and builds
+                            scalable backend systems for enterprise software.
+                        </p>
+                    </div>
+
+                    <div class="team-card">
+                        <span class="avatar">SA</span>
+                        <h3>Sudeesh Acharya</h3>
+                        <span class="role">UI / UX Designer</span>
+                        <p>
+                            Designs intuitive, attractive and user-friendly
+                            interfaces that provide a smooth digital
+                            experience.
+                        </p>
+                    </div>
+                </div>
+            </section>
         </section>
 
         <aside class="sidebar" id="contact">
-            <h2>Get in Touch</h2>
-            <p>Have a project in mind? Reach out and we’ll connect you with a custom plan.</p>
-            <p><strong>Email:</strong> hello@brightideas.com</p>
-            <p><strong>Phone:</strong> (555) 123-4567</p>
+            <div class="sidebar-card contact-card">
+                <span class="card-kicker">Contact</span>
+                <h2>Start a project</h2>
+                <p>
+                    Have an idea or a project? Let's build something amazing
+                    together.
+                </p>
+                <dl class="contact-list">
+                    <div>
+                        <dt>Email</dt>
+                        <dd>info@Gammeytech.com</dd>
+                    </div>
+                    <div>
+                        <dt>Phone</dt>
+                        <dd>+977-98XXXXXXXX</dd>
+                    </div>
+                    <div>
+                        <dt>Address</dt>
+                        <dd>Pokhara, Nepal</dd>
+                    </div>
+                </dl>
+            </div>
 
-            <h3>Latest News</h3>
-            <ul>
-                <li>New portfolio launches in August 2026</li>
-                <li>Free website audit for small businesses</li>
-                <li>Design trends: minimal layouts & bold typography</li>
-            </ul>
+            <div class="sidebar-card">
+                <h2>Latest Updates</h2>
+                <ul class="feature-list">
+                    <li>AI Powered Business Solutions</li>
+                    <li>Custom Software Development</li>
+                    <li>Cloud Integration Services</li>
+                    <li>Mobile Application Development</li>
+                    <li>Cyber Security Solutions</li>
+                </ul>
+            </div>
 
-            <h3>Quick Links</h3>
-            <ul>
-                <li><a href="#services">Explore services</a></li>
-                <li><a href="#about">Meet the team</a></li>
-                <li><a href="#contact">Book a call</a></li>
-            </ul>
+            <div class="sidebar-card">
+                <h2>Technologies</h2>
+                <ul class="tag-list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+
+            <div class="sidebar-card">
+                <h2>Quick Links</h2>
+                <ul class="link-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </aside>
-
-
     </main>
 
     <footer class="footer">
-        <p>&copy; 2026 Bright Ideas Web Studio</p>
+        <h3>Gammey Technologies</h3>
+        <p>
+            Delivering innovative software solutions for businesses, startups
+            and organizations through technology, creativity and teamwork.
+        </p>
+        <p>© 2026 Gammey Technologies. All Rights Reserved.</p>
     </footer>
-
 </body>
 
 </html>
