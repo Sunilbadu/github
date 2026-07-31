@@ -366,11 +366,16 @@ body{
 
 }
 
-.content p{
-
-    color:#666;
-
-    line-height:1.9;
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: min(90%, 600px);
+    margin: auto;
+    border-radius: 5px;
+  
+  
+}
 
 }
 
