@@ -1,279 +1,1478 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gammey Technologies</title>
+    <title>Gammey Technologies | Software & IT Solutions</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="header">
-        <a href="#home" class="brand" aria-label="Gammey Technologies home">
-            <span class="brand-mark">GT</span>
-            <span>
-                <h1>Gammey Technologies</h1>
-                <p>Innovative Software & IT Solutions</p>
-            </span>
-        </a>
-    </header>
 
-    <nav class="navbar" aria-label="Primary navigation">
-        <a href="#home">Home</a>
+<!--==================== PRELOADER ====================-->
+
+<div id="preloader">
+    <div class="loader"></div>
+</div>
+
+<!--==================== HEADER ====================-->
+
+<header class="header">
+
+    <div class="logo">
+
+        <div class="logo-icon">
+            GT
+        </div>
+
+        <div class="logo-text">
+
+            <h2>Gammey Technologies</h2>
+
+            <span>Innovative Software & IT Solutions</span>
+
+        </div>
+
+    </div>
+
+    <nav class="navbar">
+
+        <a href="#home" class="active">Home</a>
+
         <a href="#about">About</a>
+
         <a href="#services">Services</a>
+
+        <a href="#portfolio">Portfolio</a>
+
         <a href="#team">Team</a>
+
         <a href="#contact">Contact</a>
+
     </nav>
 
-    <section class="hero" id="home">
-        <div class="hero-text">
-            <p class="eyebrow">Software studio in Pokhara</p>
-            <h2>Empowering Businesses Through Technology</h2>
-            <p>
-                We create modern software, web applications and IT solutions
-                that help businesses automate, innovate and grow in the
-                digital world.
-            </p>
-            <div class="hero-buttons">
-                <a href="#services" class="btn primary">Our Services</a>
-                <a href="#contact" class="btn secondary">Contact Us</a>
+    <div class="header-right">
+
+        <div class="search-box">
+
+            <input type="text" placeholder="Search...">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+        </div>
+
+        <button id="dark-btn">
+
+            <i class="fa-solid fa-moon"></i>
+
+        </button>
+
+    </div>
+
+</header>
+
+<!--==================== HERO SECTION ====================-->
+
+<section class="hero" id="home">
+
+    <div class="hero-left">
+
+        <span class="small-title">
+            🚀 Software Company Based in Nepal
+        </span>
+
+        <h1>
+
+            Empowering Businesses
+
+            <span>Through Technology</span>
+
+        </h1>
+
+        <p>
+
+            We develop high quality software, websites,
+            mobile applications and cloud solutions
+            for startups, enterprises and organizations.
+
+            Transform your ideas into reality with our
+            experienced development team.
+
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#services" class="btn primary">
+
+                Get Started
+
+            </a>
+
+            <a href="#portfolio" class="btn secondary">
+
+                View Projects
+
+            </a>
+
+        </div>
+
+        <div class="hero-features">
+
+            <div>
+
+                <i class="fa-solid fa-circle-check"></i>
+
+                Trusted Company
+
             </div>
-            <div class="hero-metrics" aria-label="Company highlights">
+
+            <div>
+
+                <i class="fa-solid fa-circle-check"></i>
+
+                Modern Technology
+
+            </div>
+
+            <div>
+
+                <i class="fa-solid fa-circle-check"></i>
+
+                24/7 Support
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="hero-right">
+
+        <div class="hero-card">
+
+            <h3>Our Achievement</h3>
+
+            <div class="line"></div>
+
+            <div class="hero-stat">
+
+                <h2>120+</h2>
+
+                <span>Projects Completed</span>
+
+            </div>
+
+            <div class="hero-stat">
+
+                <h2>60+</h2>
+
+                <span>Happy Clients</span>
+
+            </div>
+
+            <div class="hero-stat">
+
+                <h2>15+</h2>
+
+                <span>Expert Developers</span>
+
+            </div>
+
+            <div class="hero-stat">
+
+                <h2>99%</h2>
+
+                <span>Client Satisfaction</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==================== QUICK STATS ====================-->
+
+<section class="stats">
+
+    <div class="stat-box">
+
+        <i class="fa-solid fa-code"></i>
+
+        <h2>150+</h2>
+
+        <p>Software Projects</p>
+
+    </div>
+
+    <div class="stat-box">
+
+        <i class="fa-solid fa-users"></i>
+
+        <h2>100+</h2>
+
+        <p>Happy Clients</p>
+
+    </div>
+
+    <div class="stat-box">
+
+        <i class="fa-solid fa-globe"></i>
+
+        <h2>12</h2>
+
+        <p>Countries Served</p>
+
+    </div>
+
+    <div class="stat-box">
+
+        <i class="fa-solid fa-award"></i>
+
+        <h2>10+</h2>
+
+        <p>Industry Awards</p>
+
+    </div>
+
+</section>
+
+<!--==================== MAIN ====================-->
+
+<main class="container">
+
+<section class="content">
+
+<!-- Continue with your existing About section from here -->
+
+<!--==================== ABOUT SECTION ====================-->
+
+<section id="about" class="about-section">
+
+    <div class="section-heading">
+
+        <span>ABOUT US</span>
+
+        <h2>Who We Are</h2>
+
+        <p>
+            Gammey Technologies is a modern software company dedicated to
+            building innovative digital products and providing reliable IT
+            solutions for startups, businesses and organizations.
+        </p>
+
+    </div>
+
+    <div class="about-grid">
+
+        <div class="about-image">
+
+            <img src="images/about.jpg" alt="About Gammey Technologies">
+
+        </div>
+
+        <div class="about-content">
+
+            <h3>Building Digital Solutions That Matter</h3>
+
+            <p>
+
+                Our passionate team develops scalable software,
+                responsive websites, enterprise systems and mobile
+                applications that help businesses grow faster.
+
+            </p>
+
+            <p>
+
+                We believe technology should simplify work,
+                improve productivity and create opportunities.
+
+            </p>
+
+            <div class="about-list">
+
                 <div>
-                    <strong>6+</strong>
-                    <span>Core services</span>
+
+                    <i class="fa-solid fa-check"></i>
+
+                    Custom Software Development
+
                 </div>
+
                 <div>
-                    <strong>24/7</strong>
-                    <span>Support mindset</span>
+
+                    <i class="fa-solid fa-check"></i>
+
+                    Enterprise Web Applications
+
                 </div>
+
                 <div>
-                    <strong>100%</strong>
-                    <span>Custom builds</span>
+
+                    <i class="fa-solid fa-check"></i>
+
+                    Android & iOS Apps
+
                 </div>
+
+                <div>
+
+                    <i class="fa-solid fa-check"></i>
+
+                    Cloud Integration
+
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-check"></i>
+
+                    Cyber Security
+
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-check"></i>
+
+                    24/7 Technical Support
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==================== MISSION VISION ====================-->
+
+<section class="mission-section">
+
+    <div class="mission-card">
+
+        <i class="fa-solid fa-bullseye"></i>
+
+        <h3>Our Mission</h3>
+
+        <p>
+
+            Deliver innovative software solutions that help businesses
+            achieve efficiency, growth and long-term success through
+            modern technologies.
+
+        </p>
+
+    </div>
+
+    <div class="mission-card">
+
+        <i class="fa-solid fa-eye"></i>
+
+        <h3>Our Vision</h3>
+
+        <p>
+
+            To become one of Nepal's leading software companies known
+            worldwide for innovation, quality and customer satisfaction.
+
+        </p>
+
+    </div>
+
+    <div class="mission-card">
+
+        <i class="fa-solid fa-heart"></i>
+
+        <h3>Our Values</h3>
+
+        <p>
+
+            Innovation, Integrity, Teamwork, Transparency,
+            Customer Satisfaction and Continuous Learning.
+
+        </p>
+
+    </div>
+
+</section>
+
+<!--==================== WHY CHOOSE US ====================-->
+
+<section class="why-us">
+
+    <div class="section-heading">
+
+        <span>WHY CHOOSE US</span>
+
+        <h2>Why Businesses Trust Us</h2>
+
+    </div>
+
+    <div class="why-grid">
+
+        <div class="why-card">
+
+            <i class="fa-solid fa-lightbulb"></i>
+
+            <h3>Creative Ideas</h3>
+
+            <p>
+
+                Innovative software solutions designed according
+                to your business needs.
+
+            </p>
+
+        </div>
+
+        <div class="why-card">
+
+            <i class="fa-solid fa-code"></i>
+
+            <h3>Modern Technologies</h3>
+
+            <p>
+
+                HTML5, CSS3, JavaScript, React,
+                Node.js, Python, Java and Cloud.
+
+            </p>
+
+        </div>
+
+        <div class="why-card">
+
+            <i class="fa-solid fa-user-shield"></i>
+
+            <h3>Secure Solutions</h3>
+
+            <p>
+
+                Security-first development with
+                modern industry standards.
+
+            </p>
+
+        </div>
+
+        <div class="why-card">
+
+            <i class="fa-solid fa-headset"></i>
+
+            <h3>24/7 Support</h3>
+
+            <p>
+
+                Dedicated technical support
+                whenever you need assistance.
+
+            </p>
+
+        </div>
+
+        <div class="why-card">
+
+            <i class="fa-solid fa-layer-group"></i>
+
+            <h3>Scalable Systems</h3>
+
+            <p>
+
+                Software that grows together
+                with your business.
+
+            </p>
+
+        </div>
+
+        <div class="why-card">
+
+            <i class="fa-solid fa-rocket"></i>
+
+            <h3>Fast Delivery</h3>
+
+            <p>
+
+                Timely project completion
+                without compromising quality.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==================== SERVICES ====================-->
+
+<section id="services" class="services-section">
+
+    <div class="section-heading">
+
+        <span>OUR SERVICES</span>
+
+        <h2>What We Offer</h2>
+
+    </div>
+
+    <div class="services-grid">
+
+        <div class="service-card">
+            <i class="fa-solid fa-laptop-code"></i>
+            <h3>Software Development</h3>
+            <p>Custom desktop and enterprise software solutions.</p>
+        </div>
+
+        <div class="service-card">
+            <i class="fa-solid fa-globe"></i>
+            <h3>Web Development</h3>
+            <p>Modern, responsive and secure websites.</p>
+        </div>
+
+        <div class="service-card">
+            <i class="fa-solid fa-mobile-screen"></i>
+            <h3>Mobile Apps</h3>
+            <p>Android & cross-platform mobile applications.</p>
+        </div>
+
+        <div class="service-card">
+            <i class="fa-solid fa-cloud"></i>
+            <h3>Cloud Services</h3>
+            <p>Cloud deployment and migration services.</p>
+        </div>
+
+        <div class="service-card">
+            <i class="fa-solid fa-palette"></i>
+            <h3>UI/UX Design</h3>
+            <p>Modern interfaces with excellent user experience.</p>
+        </div>
+
+        <div class="service-card">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h3>Cyber Security</h3>
+            <p>Protecting your business from digital threats.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!--==================== PORTFOLIO ====================-->
+
+<section id="portfolio" class="portfolio">
+
+    <div class="section-heading">
+
+        <span>OUR PORTFOLIO</span>
+
+        <h2>Recent Projects</h2>
+
+    </div>
+
+    <div class="portfolio-grid">
+
+        <div class="portfolio-card">
+
+            <img src="images/project1.jpg" alt="Project">
+
+            <div class="portfolio-content">
+
+                <h3>E-Commerce Website</h3>
+
+                <p>React • Node.js • MongoDB</p>
+
+            </div>
+
+        </div>
+
+        <div class="portfolio-card">
+
+            <img src="images/project2.jpg" alt="Project">
+
+            <div class="portfolio-content">
+
+                <h3>Hospital Management</h3>
+
+                <p>Java • MySQL</p>
+
+            </div>
+
+        </div>
+
+        <div class="portfolio-card">
+
+            <img src="images/project3.jpg" alt="Project">
+
+            <div class="portfolio-content">
+
+                <h3>School ERP System</h3>
+
+                <p>PHP • Laravel</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==================== TEAM SECTION ====================-->
+
+<section class="team-section" id="team">
+
+    <div class="section-heading">
+
+        <span>OUR TEAM</span>
+
+        <h2>Meet Our Professionals</h2>
+
+        <p>
+            Our talented developers and designers work together to
+            build world-class software solutions.
+        </p>
+
+    </div>
+
+    <div class="team-grid">
+
+        <div class="team-card featured">
+
+            <img src="images/kiran.jpg" alt="Kiran Dhungana">
+
+            <h3>Kiran Dhungana</h3>
+
+            <span>Team Lead | Full Stack Developer</span>
+
+            <p>
+                Expert in full stack development with experience
+                in scalable software architecture.
+            </p>
+
+            <div class="team-social">
+
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                <a href="#"><i class="fab fa-github"></i></a>
+
+            </div>
+
+        </div>
+
+        <div class="team-card">
+
+            <img src="images/anish.jpg" alt="Anish Bartaula">
+
+            <h3>Anish Bartaula</h3>
+
+            <span>Frontend Developer</span>
+
+            <p>
+                Creates responsive, beautiful and interactive
+                web applications using modern technologies.
+            </p>
+
+            <div class="team-social">
+
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                <a href="#"><i class="fab fa-github"></i></a>
+
+            </div>
+
+        </div>
+
+        <div class="team-card">
+
+            <img src="images/sunil.jpg" alt="Sunil Datta Badu">
+
+            <h3>Sunil Datta Badu</h3>
+
+            <span>Backend Developer</span>
+
+            <p>
+                Specializes in APIs, cloud integration,
+                database management and system security.
+            </p>
+
+            <div class="team-social">
+
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                <a href="#"><i class="fab fa-github"></i></a>
+
+            </div>
+
+        </div>
+
+        <div class="team-card">
+
+            <img src="images/sudeesh.jpg" alt="Sudeesh Acharya">
+
+            <h3>Sudeesh Acharya</h3>
+
+            <span>UI / UX Designer</span>
+
+            <p>
+                Designs attractive, user-friendly and
+                modern digital experiences.
+            </p>
+
+            <div class="team-social">
+
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                <a href="#"><i class="fab fa-github"></i></a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==================== TESTIMONIALS ====================-->
+
+<section class="testimonial-section">
+
+    <div class="section-heading">
+
+        <span>TESTIMONIALS</span>
+
+        <h2>What Clients Say</h2>
+
+    </div>
+
+    <div class="testimonial-grid">
+
+        <div class="testimonial-card">
+
+            <i class="fas fa-quote-left"></i>
+
+            <p>
+
+                Gammey Technologies delivered our project
+                ahead of schedule with exceptional quality.
+
+            </p>
+
+            <h4>ABC Company</h4>
+
+            <span>CEO</span>
+
+        </div>
+
+        <div class="testimonial-card">
+
+            <i class="fas fa-quote-left"></i>
+
+            <p>
+
+                Professional developers with excellent
+                communication and support.
+
+            </p>
+
+            <h4>XYZ Solutions</h4>
+
+            <span>Director</span>
+
+        </div>
+
+        <div class="testimonial-card">
+
+            <i class="fas fa-quote-left"></i>
+
+            <p>
+
+                Highly recommended for software and
+                web development services.
+
+            </p>
+
+            <h4>Tech Nepal</h4>
+
+            <span>Manager</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==================== PROCESS ====================-->
+
+<section class="process-section">
+
+    <div class="section-heading">
+
+        <span>OUR PROCESS</span>
+
+        <h2>How We Work</h2>
+
+    </div>
+
+    <div class="process-grid">
+
+        <div class="process-card">
+
+            <div class="number">01</div>
+
+            <h3>Requirement Analysis</h3>
+
+            <p>
+                Understanding business requirements
+                and project objectives.
+            </p>
+
+        </div>
+
+        <div class="process-card">
+
+            <div class="number">02</div>
+
+            <h3>Planning & Design</h3>
+
+            <p>
+                Wireframes, architecture and UI design.
+            </p>
+
+        </div>
+
+        <div class="process-card">
+
+            <div class="number">03</div>
+
+            <h3>Development</h3>
+
+            <p>
+                Building secure and scalable applications.
+            </p>
+
+        </div>
+
+        <div class="process-card">
+
+            <div class="number">04</div>
+
+            <h3>Testing</h3>
+
+            <p>
+                Quality assurance and bug fixing.
+            </p>
+
+        </div>
+
+        <div class="process-card">
+
+            <div class="number">05</div>
+
+            <h3>Deployment</h3>
+
+            <p>
+                Launching software to production.
+            </p>
+
+        </div>
+
+        <div class="process-card">
+
+            <div class="number">06</div>
+
+            <h3>Maintenance</h3>
+
+            <p>
+                Continuous support and updates.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==================== TECHNOLOGIES ====================-->
+
+<section class="technology-section">
+
+    <div class="section-heading">
+
+        <span>TECH STACK</span>
+
+        <h2>Technologies We Use</h2>
+
+    </div>
+
+    <div class="tech-grid">
+
+        <div class="tech-card"><i class="fab fa-html5"></i><h4>HTML5</h4></div>
+
+        <div class="tech-card"><i class="fab fa-css3-alt"></i><h4>CSS3</h4></div>
+
+        <div class="tech-card"><i class="fab fa-js"></i><h4>JavaScript</h4></div>
+
+        <div class="tech-card"><i class="fab fa-react"></i><h4>React</h4></div>
+
+        <div class="tech-card"><i class="fab fa-node-js"></i><h4>Node JS</h4></div>
+
+        <div class="tech-card"><i class="fab fa-python"></i><h4>Python</h4></div>
+
+        <div class="tech-card"><i class="fab fa-java"></i><h4>Java</h4></div>
+
+        <div class="tech-card"><i class="fas fa-database"></i><h4>MySQL</h4></div>
+
+    </div>
+
+</section>
+
+<!-- Continue with Part 4 -->
+
+<!--==================== CLIENTS SECTION ====================-->
+
+<section class="clients-section">
+
+    <div class="section-heading">
+
+        <span>OUR CLIENTS</span>
+
+        <h2>Trusted By Businesses</h2>
+
+        <p>
+            We are proud to work with startups, organizations,
+            educational institutions and enterprises.
+        </p>
+
+    </div>
+
+    <div class="client-grid">
+
+        <div class="client-card">
+            <img src="images/client1.png" alt="Client 1">
+        </div>
+
+        <div class="client-card">
+            <img src="images/client2.png" alt="Client 2">
+        </div>
+
+        <div class="client-card">
+            <img src="images/client3.png" alt="Client 3">
+        </div>
+
+        <div class="client-card">
+            <img src="images/client4.png" alt="Client 4">
+        </div>
+
+        <div class="client-card">
+            <img src="images/client5.png" alt="Client 5">
+        </div>
+
+        <div class="client-card">
+            <img src="images/client6.png" alt="Client 6">
+        </div>
+
+    </div>
+
+</section>
+
+<!--==================== COMPANY TIMELINE ====================-->
+
+<section class="timeline-section">
+
+    <div class="section-heading">
+
+        <span>OUR JOURNEY</span>
+
+        <h2>Company Timeline</h2>
+
+    </div>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+
+            <div class="timeline-year">
+                2023
+            </div>
+
+            <div class="timeline-content">
+
+                <h3>Company Founded</h3>
+
+                <p>
+                    Gammey Technologies was established with a
+                    vision of delivering innovative software
+                    solutions.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="timeline-item">
+
+            <div class="timeline-year">
+                2024
+            </div>
+
+            <div class="timeline-content">
+
+                <h3>First Major Projects</h3>
+
+                <p>
+                    Successfully completed multiple web and
+                    software development projects.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="timeline-item">
+
+            <div class="timeline-year">
+                2025
+            </div>
+
+            <div class="timeline-content">
+
+                <h3>Expansion</h3>
+
+                <p>
+                    Expanded services to cloud computing,
+                    mobile applications and cyber security.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="timeline-item">
+
+            <div class="timeline-year">
+                2026
+            </div>
+
+            <div class="timeline-content">
+
+                <h3>Global Vision</h3>
+
+                <p>
+                    Serving clients internationally with
+                    modern technology solutions.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==================== ACHIEVEMENTS ====================-->
+
+<section class="achievement-section">
+
+    <div class="section-heading">
+
+        <span>ACHIEVEMENTS</span>
+
+        <h2>Our Success</h2>
+
+    </div>
+
+    <div class="achievement-grid">
+
+        <div class="achievement-card">
+
+            <i class="fas fa-trophy"></i>
+
+            <h3>150+</h3>
+
+            <p>Completed Projects</p>
+
+        </div>
+
+        <div class="achievement-card">
+
+            <i class="fas fa-user-friends"></i>
+
+            <h3>100+</h3>
+
+            <p>Happy Clients</p>
+
+        </div>
+
+        <div class="achievement-card">
+
+            <i class="fas fa-code"></i>
+
+            <h3>20+</h3>
+
+            <p>Expert Developers</p>
+
+        </div>
+
+        <div class="achievement-card">
+
+            <i class="fas fa-star"></i>
+
+            <h3>99%</h3>
+
+            <p>Client Satisfaction</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==================== CALL TO ACTION ====================-->
+
+<section class="cta-section">
+
+    <div class="cta-content">
+
+        <h2>
+
+            Ready To Build Your Next Project?
+
+        </h2>
+
+        <p>
+
+            Let's create something amazing together.
+            Contact our experts today.
+
+        </p>
+
+        <a href="#contact" class="btn primary">
+
+            Get Free Consultation
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- Continue with Part 5 -->
+
+<!--==================== FAQ SECTION ====================-->
+
+<section class="faq-section" id="faq">
+
+    <div class="section-heading">
+        <span>FAQ</span>
+        <h2>Frequently Asked Questions</h2>
+        <p>
+            Find answers to the most common questions about our services.
+        </p>
+    </div>
+
+    <div class="faq-container">
+
+        <div class="faq-item">
+            <button class="faq-question">
+                What services does Gammey Technologies provide?
+                <i class="fa-solid fa-plus"></i>
+            </button>
+            <div class="faq-answer">
+                <p>
+                    We provide Software Development, Website Development,
+                    Mobile App Development, UI/UX Design, Cloud Solutions,
+                    Cyber Security and IT Consulting.
+                </p>
             </div>
         </div>
-    </section>
 
-    <main class="container">
-        <section class="content" aria-labelledby="welcome-heading">
-            <h2 id="welcome-heading">Welcome to Gammey Technologies</h2>
-            <p>
-                Gammey Technologies is a modern software company dedicated to
-                delivering innovative digital solutions. We specialize in
-                software development, web applications, cloud technologies,
-                and IT consulting that help businesses stay ahead in today's
-                competitive market.
-            </p>
-
-            <h3 id="about">About Us</h3>
-            <p>
-                Our company believes technology should simplify life and create
-                opportunities. We combine creativity, technical expertise, and
-                teamwork to build secure, scalable, and user-friendly software
-                solutions for startups, organizations, and enterprises.
-            </p>
-
-            <div class="card-grid">
-                <div class="info-card">
-                    <span class="card-kicker">Mission</span>
-                    <h3>Build with purpose</h3>
-                    <p>
-                        To provide reliable, innovative, and high-quality
-                        software solutions that solve real-world business
-                        challenges.
-                    </p>
-                </div>
-
-                <div class="info-card">
-                    <span class="card-kicker">Vision</span>
-                    <h3>Lead through craft</h3>
-                    <p>
-                        To become one of Nepal's leading software companies,
-                        recognized for innovation, excellence, and customer
-                        satisfaction.
-                    </p>
-                </div>
-            </div>
-
-            <h2 id="services" class="section-title">Our Services</h2>
-            <div class="services">
-                <div class="service-box" data-number="01">
-                    <h4>Software Development</h4>
-                    <p>
-                        Custom desktop and enterprise software tailored to your
-                        business needs.
-                    </p>
-                </div>
-
-                <div class="service-box" data-number="02">
-                    <h4>Web Application Development</h4>
-                    <p>
-                        Responsive, scalable and secure web applications using
-                        modern technologies.
-                    </p>
-                </div>
-
-                <div class="service-box" data-number="03">
-                    <h4>Mobile App Development</h4>
-                    <p>
-                        Android and cross-platform mobile applications with
-                        excellent user experience.
-                    </p>
-                </div>
-
-                <div class="service-box" data-number="04">
-                    <h4>Cloud & IT Consulting</h4>
-                    <p>
-                        Cloud deployment, IT consulting, maintenance and
-                        technical support for businesses.
-                    </p>
-                </div>
-
-                <div class="service-box" data-number="05">
-                    <h4>UI / UX Design</h4>
-                    <p>
-                        Attractive and user-friendly interface designs focused
-                        on usability and customer satisfaction.
-                    </p>
-                </div>
-
-                <div class="service-box" data-number="06">
-                    <h4>Cyber Security</h4>
-                    <p>
-                        Secure systems, data protection and cybersecurity
-                        solutions for modern organizations.
-                    </p>
-                </div>
-            </div>
-
-            <section class="team" id="team">
-                <h2>Meet Our Team</h2>
-                <p class="team-intro">
-                    Our strength lies in our talented team of passionate
-                    developers and designers who work together to build
-                    innovative software solutions.
-                </p>
-
-                <div class="team-container">
-                    <div class="team-card leader">
-                        <span class="avatar">KD</span>
-                        <h3>Kiran Dhungana</h3>
-                        <span class="role">Team Lead - Full Stack Developer</span>
-                        <p>
-                            Leads the team while developing secure, scalable
-                            and high-performance software solutions using
-                            modern technologies.
-                        </p>
-                    </div>
-
-                    <div class="team-card">
-                        <span class="avatar">AB</span>
-                        <h3>Anish Bartaula</h3>
-                        <span class="role">Frontend Developer</span>
-                        <p>
-                            Specializes in building responsive user interfaces
-                            with HTML, CSS and JavaScript while ensuring an
-                            excellent user experience.
-                        </p>
-                    </div>
-
-                    <div class="team-card">
-                        <span class="avatar">SB</span>
-                        <h3>Sunil Datta Badu</h3>
-                        <span class="role">Backend Developer</span>
-                        <p>
-                            Develops secure APIs, manages databases and builds
-                            scalable backend systems for enterprise software.
-                        </p>
-                    </div>
-
-                    <div class="team-card">
-                        <span class="avatar">SA</span>
-                        <h3>Sudeesh Acharya</h3>
-                        <span class="role">UI / UX Designer</span>
-                        <p>
-                            Designs intuitive, attractive and user-friendly
-                            interfaces that provide a smooth digital
-                            experience.
-                        </p>
-                    </div>
-                </div>
-            </section>
-        </section>
-
-        <aside class="sidebar" id="contact">
-            <div class="sidebar-card contact-card">
-                <span class="card-kicker">Contact</span>
-                <h2>Start a project</h2>
+        <div class="faq-item">
+            <button class="faq-question">
+                Do you build custom software?
+                <i class="fa-solid fa-plus"></i>
+            </button>
+            <div class="faq-answer">
                 <p>
-                    Have an idea or a project? Let's build something amazing
-                    together.
+                    Yes. Every software solution is designed according to
+                    your business requirements.
                 </p>
-                <dl class="contact-list">
-                    <div>
-                        <dt>Email</dt>
-                        <dd>info@Gammeytech.com</dd>
-                    </div>
-                    <div>
-                        <dt>Phone</dt>
-                        <dd>+977-98XXXXXXXX</dd>
-                    </div>
-                    <div>
-                        <dt>Address</dt>
-                        <dd>Pokhara, Nepal</dd>
-                    </div>
-                </dl>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                How long does a project take?
+                <i class="fa-solid fa-plus"></i>
+            </button>
+            <div class="faq-answer">
+                <p>
+                    Depending on complexity, projects usually take between
+                    2 weeks and 6 months.
+                </p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Do you provide support after deployment?
+                <i class="fa-solid fa-plus"></i>
+            </button>
+            <div class="faq-answer">
+                <p>
+                    Yes, we provide maintenance, updates and technical
+                    support after project completion.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!--==================== CONTACT ====================-->
+
+<section class="contact-section" id="contact">
+
+    <div class="section-heading">
+
+        <span>CONTACT US</span>
+
+        <h2>Let's Build Something Amazing</h2>
+
+    </div>
+
+    <div class="contact-wrapper">
+
+        <div class="contact-info">
+
+            <h3>Contact Information</h3>
+
+            <div class="info-box">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                    <h4>Address</h4>
+                    <p>Pokhara, Nepal</p>
+                </div>
             </div>
 
-            <div class="sidebar-card">
-                <h2>Latest Updates</h2>
-                <ul class="feature-list">
-                    <li>AI Powered Business Solutions</li>
-                    <li>Custom Software Development</li>
-                    <li>Cloud Integration Services</li>
-                    <li>Mobile Application Development</li>
-                    <li>Cyber Security Solutions</li>
-                </ul>
+            <div class="info-box">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                    <h4>Phone</h4>
+                    <p>+977-98XXXXXXXX</p>
+                </div>
             </div>
 
-            <div class="sidebar-card">
-                <h2>Technologies</h2>
-                <ul class="tag-list">
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                    <li>Node.js</li>
-                    <li>Python</li>
-                    <li>Java</li>
-                    <li>MySQL</li>
-                </ul>
+            <div class="info-box">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                    <h4>Email</h4>
+                    <p>info@gammeytech.com</p>
+                </div>
             </div>
 
-            <div class="sidebar-card">
-                <h2>Quick Links</h2>
-                <ul class="link-list">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#team">Our Team</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+            <div class="info-box">
+                <i class="fa-solid fa-clock"></i>
+                <div>
+                    <h4>Working Hours</h4>
+                    <p>Sunday - Friday : 9 AM - 6 PM</p>
+                </div>
             </div>
-        </aside>
-    </main>
 
-    <footer class="footer">
-        <h3>Gammey Technologies</h3>
+        </div>
+
+        <form class="contact-form">
+
+            <input type="text" placeholder="Full Name" required>
+
+            <input type="email" placeholder="Email Address" required>
+
+            <input type="text" placeholder="Subject">
+
+            <textarea rows="6" placeholder="Write your message"></textarea>
+
+            <button class="btn primary">
+                Send Message
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!--==================== NEWSLETTER ====================-->
+
+<section class="newsletter">
+
+    <div class="newsletter-content">
+
+        <h2>Subscribe Our Newsletter</h2>
+
         <p>
-            Delivering innovative software solutions for businesses, startups
-            and organizations through technology, creativity and teamwork.
+            Get updates about our latest software,
+            technologies and company news.
         </p>
-        <p>© 2026 Gammey Technologies. All Rights Reserved.</p>
-    </footer>
-</body>
 
+        <form class="newsletter-form">
+
+            <input
+                type="email"
+                placeholder="Enter your Email">
+
+            <button>
+                Subscribe
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!--==================== GOOGLE MAP ====================-->
+
+<section class="map-section">
+
+    <iframe
+        src="https://www.google.com/maps?q=Pokhara,Nepal&output=embed"
+        loading="lazy"
+        allowfullscreen>
+    </iframe>
+
+</section>
+
+<!--==================== FOOTER ====================-->
+
+<footer class="footer">
+
+    <div class="footer-grid">
+
+        <div>
+
+            <h2>Gammey Technologies</h2>
+
+            <p>
+
+                Delivering innovative software,
+                web applications and IT solutions
+                with quality and professionalism.
+
+            </p>
+
+        </div>
+
+        <div>
+
+            <h3>Quick Links</h3>
+
+            <ul>
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#services">Services</a></li>
+
+                <li><a href="#portfolio">Portfolio</a></li>
+
+                <li><a href="#team">Team</a></li>
+
+            </ul>
+
+        </div>
+
+        <div>
+
+            <h3>Services</h3>
+
+            <ul>
+
+                <li>Software Development</li>
+
+                <li>Website Development</li>
+
+                <li>Mobile Apps</li>
+
+                <li>Cyber Security</li>
+
+                <li>Cloud Solutions</li>
+
+            </ul>
+
+        </div>
+
+        <div>
+
+            <h3>Follow Us</h3>
+
+            <div class="footer-social">
+
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+                <a href="#"><i class="fab fa-github"></i></a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copyright">
+
+        © 2026 Gammey Technologies.
+        All Rights Reserved.
+
+    </p>
+
+</footer>
+
+<!--==================== FLOATING BUTTONS ====================-->
+
+<a href="#home" class="scroll-top">
+    <i class="fa-solid fa-arrow-up"></i>
+</a>
+
+<a href="https://wa.me/97798XXXXXXXX"
+   class="whatsapp-btn"
+   target="_blank">
+
+    <i class="fab fa-whatsapp"></i>
+
+</a>
+
+</main>
+
+<script src="script.js"></script>
+</body>
 </html>
+
