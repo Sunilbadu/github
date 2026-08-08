@@ -843,6 +843,12 @@ body{
 
     }
 
+    .navbar{
+
+        width:min(95%,600px);
+
+    }
+
 }
 
 @media(max-width:768px){
@@ -902,6 +908,190 @@ body{
     .services{
 
         grid-template-columns:1fr;
+
+    }
+
+    .card-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+@media(max-width:480px){
+
+    .header{
+
+        width:92%;
+        padding:45px 0 24px;
+
+    }
+
+    .header h1{
+
+        font-size:2.15rem;
+        letter-spacing:1px;
+
+    }
+
+    .header p{
+
+        font-size:1rem;
+
+    }
+
+    .navbar{
+
+        position:relative;
+        top:0;
+        width:92%;
+        gap:4px;
+        padding:7px;
+
+    }
+
+    .navbar a{
+
+        padding:10px 12px;
+        font-size:.9rem;
+
+    }
+
+    .hero{
+
+        width:92%;
+        margin:32px auto;
+        border-radius:25px;
+
+    }
+
+    .hero-text{
+
+        padding:48px 18px;
+
+    }
+
+    .hero h2{
+
+        font-size:1.85rem;
+        margin-bottom:18px;
+
+    }
+
+    .hero p{
+
+        font-size:1rem;
+        line-height:1.75;
+
+    }
+
+    .hero-buttons{
+
+        margin-top:30px;
+        gap:12px;
+
+    }
+
+    .btn{
+
+        width:100%;
+        padding:14px 22px;
+
+    }
+
+    .container{
+
+        width:92%;
+        gap:20px;
+        margin-top:28px;
+
+    }
+
+    .content{
+
+        border-radius:24px;
+        padding:24px 18px;
+
+    }
+
+    .content h2,
+    .team h2{
+
+        font-size:1.8rem;
+
+    }
+
+    .content h3{
+
+        margin-top:30px;
+
+    }
+
+    .card-grid,
+    .services{
+
+        margin-top:25px;
+        gap:18px;
+
+    }
+
+    .info-card,
+    .service-box,
+    .team-card{
+
+        padding:24px 20px;
+
+    }
+
+    .team{
+
+        margin-top:55px;
+
+    }
+
+    .team-intro{
+
+        margin:16px auto 32px;
+
+    }
+
+    .team-container{
+
+        gap:20px;
+
+    }
+
+    .team-card img{
+
+        width:110px;
+        height:110px;
+
+    }
+
+    .sidebar{
+
+        gap:18px;
+
+    }
+
+    .sidebar-card{
+
+        border-radius:22px;
+        padding:22px 18px;
+
+    }
+
+    .footer{
+
+        margin-top:50px;
+        padding:40px 18px;
+
+    }
+
+    .footer h3{
+
+        font-size:1.7rem;
 
     }
 
