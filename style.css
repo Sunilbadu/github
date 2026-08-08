@@ -918,8 +918,8 @@ body{
     }
 
 }
-
-@media(max-width:480px){
+/* responsive */
+@media(max-width:480px){ 
 
     .header{
 
